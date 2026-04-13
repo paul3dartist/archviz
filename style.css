@@ -125,6 +125,13 @@
     object-fit: cover;   /* Maintain aspect ratio by cropping */
 }
 
+.cta-image {
+    border-radius: 0 !important;
+    height: 500px;       /* Set your desired height */
+    width: 100%;         /* Fill the horizontal column */
+    object-fit: cover;   /* Maintain aspect ratio by cropping */
+}
+
 .card-text{
   text-align: center;
 }
@@ -145,4 +152,8 @@
   100% {
     background-position: 0% 50%;
   }
+}
+
+.dark-bg {
+  background-color: #2C2C2C;
 }
